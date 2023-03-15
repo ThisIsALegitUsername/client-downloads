@@ -1,0 +1,344 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Bone",
+            "rotation" : [
+                -2.911165530861126e-09,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "name" : "Bone.001",
+            "rotation" : [
+                -0.5803876519203186,
+                0.009597252123057842,
+                -0.006840731482952833,
+                0.8142551779747009
+            ],
+            "scale" : [
+                0.9999998807907104,
+                0.9999998807907104,
+                1.0000001192092896
+            ],
+            "translation" : [
+                5.820766091346741e-11,
+                0.02873009443283081,
+                -0.014062277041375637
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Cube.002",
+            "skin" : 0
+        },
+        {
+            "children" : [
+                2,
+                0,
+                1
+            ],
+            "name" : "Armature",
+            "rotation" : [
+                0,
+                0.7071068286895752,
+                -0.7071068286895752,
+                -3.090862321641907e-08
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Laptop",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                },
+                "roughnessFactor" : 0.5527864098548889
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Keys",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "roughnessFactor" : 0.5527864098548889
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cube.030",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "JOINTS_0" : 3,
+                        "WEIGHTS_0" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 6,
+                        "NORMAL" : 7,
+                        "TEXCOORD_0" : 8,
+                        "JOINTS_0" : 9,
+                        "WEIGHTS_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Laptop_Normal_DirectX",
+            "uri" : "Laptop_Normal_DirectX.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Laptop_Base_Color",
+            "uri" : "Laptop_Base_Color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Laptop_Metallic",
+            "uri" : "Laptop_Metallic.png"
+        }
+    ],
+    "skins" : [
+        {
+            "inverseBindMatrices" : 12,
+            "joints" : [
+                0,
+                1
+            ],
+            "name" : "Armature"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1693,
+            "max" : [
+                1.1008658409118652,
+                1.3430031538009644,
+                0.2889517843723297
+            ],
+            "min" : [
+                -1.1008658409118652,
+                -0.029384449124336243,
+                -1.4004565477371216
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1693,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1693,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5121,
+            "count" : 1693,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 1693,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 5268,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 2574,
+            "max" : [
+                1.0074448585510254,
+                0.0106498496606946,
+                -0.22796496748924255
+            ],
+            "min" : [
+                -1.007928490638733,
+                -0.01017487607896328,
+                -0.7822251319885254
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 2574,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 2574,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5121,
+            "count" : 2574,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 2574,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 9270,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "MAT4"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 20316,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 20316,
+            "byteOffset" : 20316
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 13544,
+            "byteOffset" : 40632
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6772,
+            "byteOffset" : 54176
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 27088,
+            "byteOffset" : 60948
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10536,
+            "byteOffset" : 88036
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 30888,
+            "byteOffset" : 98572
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 30888,
+            "byteOffset" : 129460
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 20592,
+            "byteOffset" : 160348
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10296,
+            "byteOffset" : 180940
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 41184,
+            "byteOffset" : 191236
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18540,
+            "byteOffset" : 232420
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 128,
+            "byteOffset" : 250960
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 251088,
+            "uri" : "laptop.bin"
+        }
+    ]
+}

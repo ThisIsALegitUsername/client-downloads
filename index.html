@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Resent</title>
+    <meta charset="UTF-8">
+    <meta lang="en">
+    <meta name="description" content="Resent client is an optimized PvP client which enhances user experience in eaglercraft.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="styles.css" rel="stylesheet"/>
+    <script defer type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <img class="circlething" style="width:50; height: 50;" src="./images/logo.webp" loading="lazy" alt="logo">
+      <!--<h1 class="logo">Resent client</h1>-->
+      <nav class="navigation">
+        <a href="#home">Home</a>
+        <a href="#credits">Credits</a>
+        <a href="#about">About</a>
+      </nav>
+    </header>
+    <welcome>
+      <p id="home">there are orphans in my basement</p>
+      <img src="./images/logo.webp" class="title logo" alt="logo">
+      <h1 class="title">Resent.</h1>
+      <h2 class="fadeIn subtitle">The best Eaglercraft client.</h2>
+      <h3 class="fadeIn subtext">Eaglercraft is real Minecraft 1.8.8 that runs in your chrome browser. Resent gives you a vast expanse of options to customize and enhance your gaming experience on eaglercraft. Head to <a href="/links/">links</a> for a demonstration, or go to <a href="/deploy/">deploy</a> to host your own build. </h3>
+    </welcome>
+    <section>
+      <h1 id="credits" style="opacity: 0; position: relative; font-size: 7em;
+        top: 24.5vh;">i want to kms</h1>
+      <h1 class="newSection hidden">Contributors</h1>
+      <div class="creditContainer">
+        <div class="contributorCard hidden">
+          <img class="hidden iforgotwhatthiswasfor" src="./images/lax.webp" loading="lazy" alt="lax1dude"></img>
+          <p class="die">Lax1dude</p>
+        </div>
+        <div class="contributorCard hidden">
+          <img class="hidden iforgotwhatthiswasfor" src="./images/hooman.webp" loading="lazy" alt="nitwit/hooman"></img>
+          <p class="die">hooman/Nitwit</p>
+        </div>
+        <div class="contributorCard hidden">
+          <img class="hidden iforgotwhatthiswasfor" src="./images/kone.webp" loading="lazy" alt="kone"></img>
+          <p class="die">kone</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <p style="position: relative; top: 8vh; opacity:0" id="about">my father left me and noone is left</p>
+      <h1 class="newSection hidden" style="transform: translateX(0%);">History & about</h1>
+      <div class="about hidden">
+        <p class="die" style="background-color: rgb(0,0,0,0); transition: none; font-size: 1.25em; font-weight: 300;">
+        <p style="text-align: center; font-weight: 600; background-color: rgb(0,0,0,0);">Why I started this client</p>
+        <br> Back in early 2022, I was cheating with a hacked client on VanillaCraft. After I was banned, I was inspired to learn how to create clients. I completed 2 hacked clients successfully. Next, I started working on Resent. At first, it started as a hobby, but now, with a large discord and community, it's really become more of an obligation to me instead of a side project. This entire client is developed by me, and <a style="background-color:rgb(0,0,0,0);" href="#credits"> kone</a> has helped with a few fixes. </p>
+        <br>
+        <p style="text-align: center; font-weight: 600; background-color: rgb(0,0,0,0);">How eagler works</p>
+        <br> Eaglercraft depends on TeaVM, an AOT (Ahead of time) compiler that compiles java bytecode into javascript which can run inside browsers. The assets for the game are stored in a custom "EPK" file format which is then downloaded by resent. (For offline downloads, the epk is encoded into base64, and decoded back into the original epk file when the game is run.) After resent gets the epk file, it decompresses the epk files into the game's assets.
+      </div>
+    </section>
+    <section style="min-height:30vh;"></section>
+    <!--<button onclick="Start();" class="btn"><a href="#">test</a></button>!-->
+  </body>
+</html>

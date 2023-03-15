@@ -1,0 +1,20 @@
+.roundedRectContainer {
+  display: flex;
+  left: 20vw;
+  top: 10vh;
+  position: relative;
+  width: 20vw;
+  height: 70vh;
+  background-color: #383838;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  overflow-x: auto;
+}
+
+.textmebbg {
+  font-size: 1.3em;
+  z-index: 10;
+  padding: 10px;
+  flex: none;
+  background-color: rgb(0,0,0,0);
+}
